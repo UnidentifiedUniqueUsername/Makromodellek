@@ -1,10 +1,10 @@
-% Makromodellek 3. házi - A9WYT0
-% Különbözõ phi paraméterek mellett kiszámítja, hogy mekkora lesz a
-% foglalkkoztatottak száma.
+% Makromodellek 3. hÃ¡zi - A9WYT0
+% KÃ¼lÃ¶nbÃ¶zÅ‘ phi paramÃ©terek mellett kiszÃ¡mÃ­tja, hogy mekkora lesz a
+% foglalkoztatottak szÃ¡ma.
 %
-% Megjegyzés: az L-re a képlet az elõzõ részfeladatokból következik. A phi
-% intervallumát hasraütésszerûen választottam. A piros csillag jelzi a
-% háziban kijött eredményt.
+% MegjegyzÃ©s: az L-re a kÃ©plet az elÅ‘zÅ‘ rÃ©szfeladatokbÃ³l kÃ¶vetkezik. A phi
+% intervallumÃ¡t hasraÃ¼tÃ©sszerÅ±en vÃ¡lasztottam. A piros csillag jelzi a
+% hÃ¡ziban kijÃ¶tt eredmÃ©nyt.
 
 phi = 0:0.25:15;
 L = ((1.09^-0.79 * 0.68) ./ phi).^(1 / (1.76-2*0.68+1.79));
